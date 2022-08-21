@@ -1,0 +1,20 @@
+def swap_case(s):
+    mylist = ""
+    for ab in s:
+        if ab.isupper() == True:
+            mylist+=(ab.lower())
+        else:
+            mylist+=(ab.upper())
+    return mylist
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+   
+ -----------------------------------------------------------
+ How to Guide
+ Create a empty list first.
+ Now run a loop to go through each value of string.
+ Use if-else to swap character.
+ 
