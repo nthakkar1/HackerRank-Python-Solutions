@@ -1,0 +1,19 @@
+def split_and_join(line):
+    nt=""
+    for m in line:
+        if m==" ":
+            nt+="-"
+        else:
+            nt+=m
+    return nt
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
+    
+    -----------------------------------------------
+    
+    create an empty list
+    Now run a for loop to scan every character in string.
+    check for space if found then replace it by "-"
+    else let it be the character
